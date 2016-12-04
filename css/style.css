@@ -1,0 +1,193 @@
+@import url(font-awesome.min.css);
+@import url(//github.com/necolas/normalize.css);
+@import url(//meyerweb.com/eric/tools/css/reset/reset.css);
+@import url(grid.css);
+
+
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+ width: 90%;	
+margin: auto;
+  top:2em; 
+ bottom:0; 
+ left:0; 
+ right:0;
+}
+
+ * {
+box-sizing: border-box;
+ } 
+
+html {
+	font-family: 'Aref Ruqaa', serif;
+    font-size: 0.625rem;  /*REM =10PX*/
+}   
+
+.menu a, .below-slider h4, .below-slider p, .posts h5 {
+    color: cadetblue;
+}
+
+body {
+ font-size: 1rem;
+}
+   
+
+/* search*/
+
+.search {
+    position: relative;
+    border: 0.1rem solid #233; 
+    height: 2.5rem;  
+    }
+
+.search input {
+    border: none;
+    width: 100%;
+    padding-right: 4rem;
+    height: 100%;
+    padding-left: 1em;
+} 
+
+.search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border:none;
+    width: 3rem;
+    height: 100%;
+    background: none;
+}
+
+::-webkit-input-placeholder {font-style:italic}
+::-moz-placeholder          {font-style:italic}/* Firefox 19+ */
+:-moz-placeholder           {font-style:italic}/* Firefox 18- */
+:-ms-input-placeholder      {font-style:italic}
+
+
+/*slider*/
+
+.slider {
+    position: relative;
+     height: 20rem;
+    
+}
+
+.slider li {
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+.slide1 {
+    background-image: url(../img/slider/slide_tastemakers.jpg);
+   background-size: cover;
+}
+
+
+.below-slider {
+    background-color: lightblue;
+}
+
+li {
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin-left: calc(1 /5 * 100%);
+}
+
+.menu {
+   padding-left: 0.1em;
+}
+
+.menu img {
+    width: 2.5em;
+}
+
+.menu li {
+    margin-top: 0.7em;
+    
+}
+
+ .menu a {
+      padding-left: 2em;
+      padding-top: 0em;
+ }
+
+.logo img {
+    width: 9.5em;
+}
+
+.slider h2 {
+    background: white;
+    float: left;
+    margin-top: 7em;
+    margin-left: 26.2em;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.slider p {
+    background: black;
+    color: white;
+    float: left;
+    margin-top: 0em;
+    margin-left: 28.4em;
+
+    clear: both;
+}
+
+.slider-captions li {
+    float: left;
+    }
+
+ .subscribe lable {
+     display: inline-block;
+     font-style: italic;
+ }   
+
+ .subscribe {
+     border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+     padding: 0.3em;
+ }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.3em; 
+}
+
+footer {
+       height: 6em;
+    margin-top: 3em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;
+}
+
+footer .copyright {
+    float: left;
+    
+}
+
+footer .social {
+    float:right;
+}
+
