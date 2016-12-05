@@ -297,3 +297,67 @@ margin-top:50px;
 
 }
 
+
+
+
+@media only screen and (max-width: 1129px) {
+    .below-slider p {
+     display: none;  
+    }
+
+     .subscribe input {
+        width:25%;
+    }
+
+     .subscribe lable {
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 981px) {
+    .side-bar .tweet, .side-bar .community {
+        display: none;
+    }
+
+.side-bar li {
+    display: inline;
+    }
+
+.col-1{
+    width:20%;
+}
+
+.col-4, col-4-4, row {
+    width: 100%;
+}
+
+/*#side-bar {
+    display: none;
+}*/
+
+}
+
+@media only screen and (max-width: 881px) {
+
+
+.col-1 {
+    width: 40%;
+}
+.content {
+    margin-left: 30em;
+}
+
+}
+
+@media only screen and (max-width: 781px) {
+
+
+.col-1 {
+    width: 80%;
+}
+.content {
+    margin-left: 30em;
+}
+
+}
+

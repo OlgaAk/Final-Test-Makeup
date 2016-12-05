@@ -6,14 +6,15 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="css/style.css">  
             <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+            
 
 </head>
 
 <body>
     <div class="wrapper">
           <div class="row">
-                <div class="side-bar">
-                            <div class="col-1">  
+                    <div class="col-1" id="side-bar">  
+                             <div class="side-bar">
                                         <div class="logo">
                                             <img src="img/logo.png">
                                         </div>                              
@@ -25,22 +26,22 @@
                                         <li><img src="img/icon-about.png"><a href=".html">About</a></li>
                                     </ul>
                                     <div class="tweet">
-                                        <p>Latest tweet</p>
-                                        <button>Join the Conversation</button>
+                                        <p class="uppercase">Latest tweet</p>
+                                        <button><i class="fa fa-twitter" aria-hidden="true"></i> Join the Conversation</button>
                                     </div>
                                     <div class="community">
-                                        <p>Let's be friends!</p>
+                                        <p class="uppercase">Let's be friends!</p>
                                         <p>For weekly finds, community recommendations, and more, like us on Facebook.<p>
-                                        <button>Join the Community</button>
+                                        <button><i class="fa fa-facebook" aria-hidden="true"></i> Join the Community</button>
                                     </div>
                                     </div>
                  </div>
 
     <div class="content">
          <div class="col-4">
-            
+            <div class="col-4-4">
                  <div class="slider">
-                      <div class="col-4-4">
+                      
                             <ul>
                                 <li class="slide1 active">
                                     <h2>What's cooking?</h2>
@@ -62,45 +63,57 @@
                  </div>
                   </div>
                  <div class="row">
+                     <div class="col-4-4">
                             <div class="below-slider"> 
-                                <div class="col-4-4">
-                                <div class="col-1-4">                             
-                                    <h4>Tastemakers</h4>
-                                    <p>Feast your eyes & get recipes!</p>
-                                </div>
-                               <div class="col-1-4">  
-                                    <h4>Blog</h4>
-                                    <p>News, how-tos, stories, and more</p>
-                                </div>
+                                
+                                    <div class="col-1-4">                             
+                                        <a href="">
+                                        <h4>Tastemakers</h4>
+                                        <p>Feast your eyes & get recipes!</p>
+                                        </a>
+                                    </div>
                                 <div class="col-1-4">  
-                                    <h4>The A-List</h4>
-                                    <p>Handpicked, absolute favorites</p>
-                                </div>
-                                <div class="col-1-4">  
-                                    <h4>Contribute</h4>
-                                    <p>We want to hear from you!</p>
-                                </div>
-                         </div>  
+                                        <a href="">
+                                        <h4>Blog</h4>
+                                        <p>News, how-tos, stories, and more</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-1-4">  
+                                       <a href="">
+                                         <h4>The A-List</h4>
+                                        <p>Handpicked, absolute favorites</p>
+                                       </a>
+                                    </div>
+                                    <div class="col-1-4">  
+                                        <a href=""> 
+                                            <h4>Contribute</h4>
+                                        <p>We want to hear from you!</p>
+                                        </a>
+                                    </div>
+                            </div>  
                          </div>
                  </div>
             </div>
         
 
       <div class="row">
-          <div class="col-4-4">
+          <div class="col-4">
             <form class="subscribe">
+                            <img src="img/icon-subscribe.png">
                             <lable for="subscribe">Sign up for our newsletter to 
                                 receive a handpicked selection of the best stories, 
-                                recipes,<br> and news, delivered weekly to your inbox.</lable>
+                                recipes, and news, delivered weekly to your inbox.</lable>
                             <input type="text" id="subscribe" placeholder="Email">                           
                                 <button>Subscriibe</button>
             </form>  
         </div>
      </div>
 
-    <div class="posts">
+    
             <div class="row">
+                 <div class="posts">
                 <div class="col-1">
+                   
                    <a href=""> <img src="img/cookbooks_blog.jpg">
                     <h5>2012’s Best Summer Cookbooks</h5>
                    </a>
@@ -148,16 +161,17 @@
                     
 
 <footer>
-    <div class="col-5">
+   
     <div class="copyright">
-        <p><a href="">Privacy Policy</a> | <a href="">Terms of Use</a> | <a href="">Contact</a></p>
+        <span><a href="">Privacy Policy</a> | <a href="">Terms of Use</a> | <a href="">Contact</a></span>
+        <p>Ⓒ 2016</p>
     </div>
     <div class="social">
-        <button><a href=""></a></button>
-         <button><a href=""></a></button>
-         <button><a href=""></a></button>
-    
-    </div>   
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         
+    </div>
+     
 </footer>
 </div> <!--wrapper-->
 </body>
