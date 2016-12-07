@@ -1,0 +1,94 @@
+
+
+@media only screen and (max-width:967px) {
+
+body {
+ overflow: hidden;
+}
+   
+   .wrapper {
+   width: 100%;
+  
+   
+}
+
+   .side-bar {
+       width: 100%;
+       float: left;
+       
+   }
+
+   .content {
+     width: 100%;
+     float:left;
+    
+     }
+
+.side-bar li {
+    display: inline;
+}
+
+.side-bar a {
+    float: left;
+}
+
+
+
+}
+
+
+@media only screen and (min-width:967px) {
+
+    body {
+ overflow: hidden;
+}
+   
+   .wrapper {
+   width: 100%;
+  
+   
+}
+
+   .side-bar {
+       width: 25%;
+       float: left;
+       
+   }
+
+   .content {
+     width: 50%;
+     float:left;
+     margin-left: 4em;
+     }
+
+
+.menu {
+   padding-left: 0.1em;
+}
+
+.menu img {
+    width: 2.5em;
+   
+}
+
+.menu li {
+    margin-top: 0.8em;
+}
+
+.menu li:hover img {
+    margin-left:1em;
+   }
+
+ .menu a {
+      margin: 0; 
+      padding-left: 1em; 
+     vertical-align: 40%; 
+     font-size: 1.7em;
+  
+ }
+
+.logo img {
+    width: 12em;
+    margin-bottom:2em;
+}
+}
