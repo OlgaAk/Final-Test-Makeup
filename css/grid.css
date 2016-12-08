@@ -965,35 +965,10 @@ footer .fa {
     float:left;
 }
 
-.side-bar li {
-    display: none;
-   
-}
-
-.side-bar a {
-   display: block;
-    padding: em;
-    padding-top:4em;
-    vertical-align: 70%;
-     padding-left: 2em; 
-     margin-bottom:2em; 
-     font-size: 1.2em;
-     color: white;
- }
-
-.menu img {
-    width: 3.5em; 
-      
-}
-
-
-
-
 .slider ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  
 }
 
 .logo img {
@@ -1006,9 +981,36 @@ footer .fa {
     width: 10%;
 }
 
-.menu {
-    display: none;
+
+.side-bar {
+    margin-right: 0;
+    margin-bottom: 1em;
 }
+
+.side-bar li {
+    display: inline-block;  
+}
+
+.menu a {
+   display: block;
+     font-size: 1.5em;
+     color: white;
+ }
+
+.menu  {
+
+    padding-top: 2em;
+    text-align: right;
+}
+
+.menu li:not(:last-child) {
+    padding: 2em; 
+}
+
+.menu li:last-child {
+    padding: 2em 2em 0; 
+}
+
 
  .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
     
@@ -1119,7 +1121,6 @@ footer .fa {
  }
  
 .search {
-    
     border: 0.1rem solid #233; 
     height: 2.5rem;  
      
@@ -1156,7 +1157,7 @@ footer .fa {
 }
 
 .posts-col {
-    width: 25%;
+    width: 50%;
      float: left;
      padding: 0 1em;
 }
@@ -1192,8 +1193,7 @@ footer {
     clear: both;
     position: relative;
     min-height: 10em;
-   margin-left: 6em;
-    margin-top: 4em;
+     margin-top: 4em;
     padding: 1em;
     border-top: 0.1em solid lightgray;
     
@@ -1237,7 +1237,7 @@ footer .fa {
 /* ONE COLUMN VIEW SCREEN______________________________________________________________________________________*/
 
 
-@media only screen and (min-width: 839px) and (max-width: 770px) {
+@media only screen and (max-width: 840px) {
 
      body {
     
