@@ -1,0 +1,95 @@
+@import url(font-awesome.min.css);
+@import url(//github.com/necolas/normalize.css);
+@import url(//meyerweb.com/eric/tools/css/reset/reset.css);
+@import url(grid.css);
+
+
+
+html, body {
+  height: 100%;
+}
+
+
+
+ * {
+box-sizing: border-box;
+ } 
+
+html {
+	font-family: 'Aref Ruqaa', serif;
+    font-size: 0.625rem;  /*REM =10PX*/
+}   
+
+.menu a, .below-slider h4, .below-slider p, .posts h5 {
+    color: cadetblue;
+}
+
+body {
+ font-size: 1rem;
+}
+   
+
+
+/* search*/
+
+
+
+::-webkit-input-placeholder {font-style:italic}
+::-moz-placeholder          {font-style:italic}/* Firefox 19+ */
+:-moz-placeholder           {font-style:italic}/* Firefox 18- */
+:-ms-input-placeholder      {font-style:italic}
+
+
+
+
+li {
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+
+.side-bar button {
+    border: lightgrey solid 0.1em;
+    border-radius: 0.3em;
+    background-color: white;
+    color: cadetblue;
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+
+.fa {
+    color: cadetblue;
+    font-size: 1.4em;
+}
+
+
+.slider-col {
+        background-color: #EFFFFF;
+        
+       }
+
+.slider-col:hover {
+background-color:#d9f2e6;
+}
+
+
+
+
+
+
+
+

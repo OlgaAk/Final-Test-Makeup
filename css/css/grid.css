@@ -1,0 +1,1426 @@
+
+/* LARGE SCREEN______________________________________________________________________________________*/
+
+@media only screen and (min-width: 1280px) {
+
+   body {
+ width: 100%;  
+}
+   
+   .wrapper {
+   width: 90%;  
+   height: 100%;
+   margin-top: 23m;
+}
+
+   .side-bar {
+       width: 20%;
+       float: left;  
+       margin-left: 8em;    
+   }
+
+   .content {
+     width: 65%;
+     float:left;
+ }
+
+
+.menu li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.menu li:hover img {
+    margin-left:1em;
+   }
+
+ .menu a {     
+      margin: 0; 
+      padding-left: 2.5em; 
+     vertical-align: 40%; 
+     font-size: 1.7em;
+  }
+
+.menu li:first-child {
+    background: url('../img/icon-tastemakers.png');   
+   background-size: 3.7em;
+    background-repeat: no-repeat;
+    }
+
+.menu ul li:nth-child(2) {
+    background-image: url('../img/icon-blog.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    } 
+    
+.menu ul li:nth-child(3) {
+    background-image: url('../img/icon-the-a-list.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    }
+    
+.menu ul li:nth-child(4) {
+    background-image: url('../img/icon-contribute.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    }
+
+.menu ul li:nth-child(5) {
+    background-image: url('../img/icon-about.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+         }
+    
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 12em;
+    margin-bottom:2em;
+}
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
+    
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.slider {
+    position: relative;
+     
+     width:100%;
+}
+
+
+.slider img {
+   width: 100%;
+}
+
+
+.slider li {
+     
+        height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+
+.slider h2 {
+    background: white;
+  position: absolute;
+  right: 0;
+  top: 60%;
+  padding: 0.4em;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+.slider p {
+    background: black;
+    color: white;
+  position: absolute;
+  right: 0;
+  top: 74%;
+  padding: 0.4em;
+  font-size: 1.8em;
+ 
+}
+
+.below-slider {
+    margin-bottom: 3em;
+}
+
+.below-slider h4 {
+ font-size: 1.8em;
+ line-height: 0.1em;
+}
+
+
+.below-slider p {
+    font-size: 1em;
+    line-height: 0.1em;
+    padding-bottom: 1em;
+   
+}
+
+.subscribe {
+     padding: 0.8em;
+     margin-top: 3em;
+     margin-bottom:2em;
+     border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+}
+
+.subscribe input {
+        width:25%;
+    }
+
+.subscribe lable {
+        width:50%;
+    }
+
+   
+.subscribe lable {
+    
+     font-style: italic;
+     float: left;
+     width:50%;
+ }   
+
+ .subscribe img {
+         float: left;
+ }   
+
+ .subscribe input,  .subscribe button {
+     float:right;
+ }
+  
+
+  .search {
+    
+    border: 0.1rem solid #233; 
+    height: 2.5rem;  
+     
+    }
+
+.search lable {
+    float:left;
+}
+
+.search input {
+    border: none;
+   float: right;
+    padding-right: 4rem;
+   
+    padding-left: 1em;
+} 
+
+.search button {
+   float: right;
+    border:none;
+    width: 3rem;
+  
+    background: none;
+}
+
+
+.slider-col {
+    width: 25%;
+    float: left;
+}
+
+.posts {
+    clear: left;
+    width: 100%;
+    margin-top: 10em;
+    
+}
+
+.posts-col {
+    width: 25%;
+     float: left;
+     padding: 0 1em;
+}
+
+
+ .posts h5 {
+     font-size: 1.7em;
+     margin:0;
+     font-weight: unset;
+ }
+
+  .posts p {
+     font-size: 1.2em;
+      }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.6em; 
+}
+
+
+
+.tweet, .community {
+    margin-top:3em;
+    width: 19em;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    min-height: 10em;
+   margin-left: 6em;
+    margin-top: 4em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;
+    
+}
+
+footer .copyright {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    line-height: 0.3em;    
+}
+
+.copywrite p a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+footer .social {
+    position: absolute;
+    top: 3em;
+    right: 0;
+    margin-right: 3em;
+}
+
+footer .fa {
+    font-size: 2.5em;
+    color:gray;
+    padding: 0 0.2em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* MIDDLE SCREEN______________________________________________________________________________________*/
+
+
+@media only screen  and (min-width: 1060px) and (max-width: 1279px) {
+
+
+body {
+ width: 100%;  
+}
+   
+.wrapper {
+   width: 90%;  
+   height: 100%;
+   margin-top: 23m;
+}
+
+.side-bar {
+       width: 20%;
+       float: left;  
+       margin-left: 10em;    
+   }
+
+.content {
+     width: 65%;
+     float:left;
+ }
+
+
+.menu li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.menu li:hover img {
+    margin-left:1em;
+   }
+
+ .menu a {     
+      margin: 0; 
+      padding-left: 2.5em; 
+     vertical-align: 40%; 
+     font-size: 1.7em;
+  }
+
+.menu li:first-child {
+    background: url('../img/icon-tastemakers.png');   
+   background-size: 3.7em;
+    background-repeat: no-repeat;
+    }
+
+.menu ul li:nth-child(2) {
+    background-image: url('../img/icon-blog.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    } 
+    
+.menu ul li:nth-child(3) {
+    background-image: url('../img/icon-the-a-list.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    }
+    
+.menu ul li:nth-child(4) {
+    background-image: url('../img/icon-contribute.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+    }
+
+.menu ul li:nth-child(5) {
+    background-image: url('../img/icon-about.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+         }
+    
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 12em;
+    margin-bottom:1.5em;
+}
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
+     content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.slider {
+    position: relative;
+          width:100%;
+}
+
+.slider img {
+   width: 100%;
+}
+
+.slider li {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+
+.slider h2 {
+    background: white;
+  position: absolute;
+  right: 0;
+  top: 59%;
+  padding: 0.3em;
+  font-size: 2.1em;
+  font-weight: lighter;
+}
+
+.slider p {
+    background: black;
+    color: white;
+  position: absolute;
+  right: 0;
+  top: 74%;
+  padding: 0.4em;
+  font-size: 1.4em;
+}
+
+.below-slider {
+    margin-top: 0;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+.below-slider h4 {
+ font-size: 1.8em;
+ line-height: 0;
+}
+
+.below-slider p {
+    font-size: 1em;
+    line-height: 0.1em;
+    padding-bottom: 1em;  
+}
+
+.subscribe {
+     padding: 0.8em;
+     margin-top: 3em;
+     margin-bottom:2em;
+     border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+} 
+
+.subscribe input {
+        width:25%;
+    }
+
+.subscribe lable {
+        width:50%;
+}
+
+.subscribe lable {
+    
+     font-style: italic;
+     float: left;
+     width:50%;
+ }   
+
+ .subscribe img {
+         float: left;
+}   
+
+ .subscribe input,  .subscribe button {
+     float:right;
+ }
+ 
+.search {
+    
+    border: 0.1rem solid #233; 
+    height: 2.5rem;     
+}
+
+.search lable {
+    float:left;
+}
+
+.search input {
+    border: none;
+   float: right;
+    padding-right: 4rem;
+   
+    padding-left: 1em;
+} 
+
+.search button {
+   float: right;
+    border:none;
+    width: 3rem;
+    background: none;
+}
+
+.slider-col {
+    width: 25%;
+    float: left;
+}
+
+.posts {
+    clear: left;
+    width: 100%;
+    margin-top: 5em;   
+}
+
+.posts-col {
+    width: 25%;
+     float: left;
+     padding: 0 1em;
+}
+
+ .posts h5 {
+     font-size: 1.7em;
+     margin:0;
+     font-weight: unset;
+ }
+
+  .posts p {
+     font-size: 1.2em;
+      }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.6em; 
+}
+
+
+.tweet, .community {
+    margin-top:3em;
+    width: 19em;
+}
+
+.below-slider p {
+        display: none;
+    }
+
+footer {
+    clear: both;
+    position: relative;
+    min-height: 10em;
+   margin-left: 6em;
+    margin-top: 4em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;   
+}
+
+footer .copyright {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    line-height: 0.3em;    
+}
+
+.copywrite p a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+footer .social {
+    position: absolute;
+    top: 3em;
+    right: 0;
+    margin-right: 3em;
+}
+
+footer .fa {
+    font-size: 2.5em;
+    color:gray;
+    padding: 0 0.2em;
+}
+
+}
+
+
+
+
+
+/* NO SIDEBAR VIEW SCREEN______________________________________________________________________________________*/
+
+
+
+@media only screen and (min-width: 962px) and (max-width: 1060px) {
+
+
+
+   body {
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin:0 auto;
+}
+
+.side-bar {
+    width: 100%;
+    float: right;
+    
+}
+
+.content {
+    width: 100%;
+    float:left;
+}
+
+.side-bar {
+    margin-right: 0;
+}
+
+.side-bar li {
+    display: inline-block;  
+}
+
+.menu a {
+   display: block;
+    padding-top: 1.2em;    
+     font-size: 1.5em;
+     color: white;
+ }
+
+.menu  {
+
+    padding-top: 4em;
+    text-align: right;
+}
+
+.menu li:not(:last-child) {
+    padding: 2em; 
+}
+
+.menu li:last-child {
+    padding: 2em 2em 0; 
+}
+
+
+ 
+.menu li:first-child {
+    background: url('../img/icon-tastemakers.png');   
+   background-size: 3.7em;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.menu ul li:nth-child(2) {
+    background-image: url('../img/icon-blog.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+     background-position: center top;
+} 
+    
+.menu ul li:nth-child(3) {
+    background-image: url('../img/icon-the-a-list.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+     background-position: center top;
+}
+    
+.menu ul li:nth-child(4) {
+    background-image: url('../img/icon-contribute.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+     background-position: center top;
+}
+
+.menu ul li:nth-child(5) {
+    background-image: url('../img/icon-about.png');   
+     background-repeat: no-repeat;
+     background-size: 3.7em;
+     background-position: center top;
+}
+    
+
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 12em;   
+}
+
+.logo {
+    float: left; 
+}
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
+    
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;       
+}
+
+
+.slider img {
+   width: 100%;
+}
+
+
+.slider li {
+        height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+
+.slider h2 {
+    background: white;
+  position: absolute;
+  right: 0;
+  top: 63%;
+  padding: 0.1em;
+  font-size: 2.1em;
+  font-weight: lighter;
+  }
+
+.slider p {
+    background: black;
+    color: white;
+  position: absolute;
+  right: 0;
+  top: 74%;
+  padding: 0.3em;
+  font-size: 1.4em;
+ 
+}
+
+.below-slider {
+    margin-top: 0;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+.below-slider h4 {
+ font-size: 1.8em;
+ line-height: 0;
+ text-align: center;
+}
+
+
+.below-slider p {
+    font-size: 1em;
+    line-height: 0.1em;
+    padding-bottom: 1em;
+   
+}
+
+.subscribe {
+     padding: 0.8em;
+     margin-top: 3em;
+     margin-bottom:2em;
+     border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+     } 
+
+.subscribe input {
+        width:25%;
+    }
+
+.subscribe lable {
+        width:50%;
+    }
+
+
+.subscribe lable {
+    
+     font-style: italic;
+     float: left;
+     width:50%;
+ }   
+
+ .subscribe img {
+         float: left;
+ }   
+
+ .subscribe input,  .subscribe button {
+     float:right;
+ }
+
+ .search {
+    
+    border: 0.1rem solid #233; 
+    height: 2.5rem;  
+     
+}
+
+.search lable {
+    float:left;
+}
+
+.search input {
+    border: none;
+   float: right;
+    padding-right: 4rem;
+   
+    padding-left: 1em;
+} 
+
+.search button {
+   float: right;
+    border:none;
+    width: 3rem;
+  
+    background: none;
+}
+
+
+.slider-col {
+    width: 25%;
+    float: left;
+}
+
+.posts {
+    clear: left;
+    width: 100%;
+    margin-top: 2em;
+    
+}
+
+.posts-col {
+    width: 25%;
+     float: left;
+     padding: 0 1em;
+}
+
+
+ .posts h5 {
+     font-size: 1.7em;
+     margin:0;
+     font-weight: unset;
+ }
+
+  .posts p {
+     font-size: 1.2em;
+      }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.6em; 
+}
+
+
+.tweet, .community {
+   display: none;
+}
+
+.below-slider p {
+        display: none;
+    }
+
+    footer {
+    clear: both;
+    position: relative;
+    min-height: 10em;
+
+    margin-top: 4em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;  
+}
+
+footer .copyright {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    line-height: 0.3em;    
+}
+
+.copywrite p a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+footer .social {
+    position: absolute;
+    top: 3em;
+    right: 0;
+    margin-right: 3em;
+}
+
+footer .fa {
+    font-size: 2.5em;
+    color:gray;
+    padding: 0 0.2em;
+}
+
+}
+
+
+
+
+
+
+
+
+/* TWO COLUMN VIEW SCREEN______________________________________________________________________________________*/
+
+
+
+@media only screen and (min-width: 840px) and (max-width: 962px) {
+
+     body {
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin:0 auto;
+}
+
+
+
+.content {
+    width: 100%;
+    float:left;
+}
+
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 10em;
+    
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+
+.side-bar {
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+
+.side-bar li {
+    display: inline-block;  
+}
+
+.menu a {
+   display: block;
+     font-size: 1.5em;
+     color: white;
+ }
+
+.menu  {
+
+    padding-top: 2em;
+    text-align: right;
+}
+
+.menu li:not(:last-child) {
+    padding: 2em; 
+}
+
+.menu li:last-child {
+    padding: 2em 2em 0; 
+}
+
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
+    
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;       
+}
+
+
+.slider img {
+   width: 100%;
+}
+
+
+.slider li {
+     
+        height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+
+.slider h2 {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 90%;
+    width: 100%;
+  position: absolute;
+  right: 0;
+  top: 72%;
+  padding: 0.3em;
+  font-size: 2em;
+  font-weight: lighter;
+  }
+
+.slider p {
+    background: black;
+    color: white;
+    width: 100%;
+  position: absolute;
+  right: 0;
+  top: 86%;
+  padding: 0.6em;
+  font-size: 1.4em;
+ 
+}
+
+.below-slider p {
+        display: none;
+    }
+    
+.subscribe {
+     padding: 0.8em;
+     margin-top: 3em;
+    border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+     margin: 3em 0;
+     } 
+
+.subscribe input {
+        width:60%;
+}
+
+
+.subscribe lable {    
+     font-style: italic;
+     float: left;
+     width: 90%;
+     vertical-align: 60%;
+     padding-bottom: 1em;
+ }   
+
+ .subscribe img {
+         float: left;
+         padding-right: 0.7em;
+ }   
+
+.subscribe button {
+     margin-left: 1em;
+     width: 20%;
+}
+
+.slider-col {
+   display: none;
+}
+
+.posts {
+    clear: left;
+    width: 100%;
+    margin-top: 2em;   
+}
+
+.posts-col {
+    width: 50%;
+     float: left;
+     padding: 0 1em;
+}
+
+
+ .posts h5 {
+     font-size: 1.7em;
+     margin:0;
+     font-weight: unset;
+ }
+
+  .posts p {
+     font-size: 1.2em;
+      }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.6em; 
+}
+
+
+
+.tweet, .community {
+   display: none;
+}
+
+
+
+footer {
+    clear: both;
+    position: relative;
+    min-height: 10em;
+     margin-top: 4em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;
+    
+}
+
+footer .copyright {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    line-height: 0.3em;    
+}
+
+.copywrite p a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+footer .social {
+    position: absolute;
+    top: 3em;
+    right: 0;
+    margin-right: 3em;
+}
+
+footer .fa {
+    font-size: 2.5em;
+    color:gray;
+    padding: 0 0.2em;
+}
+}
+
+
+
+
+
+
+
+
+
+/* ONE COLUMN VIEW SCREEN______________________________________________________________________________________*/
+
+
+@media only screen and (max-width: 840px) {
+
+       body {
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin:0 auto;
+}
+
+.content {
+    width: 100%;
+    float:left;
+}
+
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 10em;
+    
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+}
+
+.side-bar li {
+    display: inline-block;  
+}
+
+.menu a {
+   display: block;
+     font-size: 1.2em;
+     color: white;
+ }
+
+.menu  {
+    text-align: center;
+}
+
+.menu li:not(:first-child):not(:last-child) {
+    padding: 1em; 
+}
+
+.menu li:last-child {
+    padding: 0em 1em 0; 
+}
+
+.menu li:first-child {
+    padding: 0em 0 1em; 
+}
+
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
+    
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;       
+}
+
+
+.slider img {
+   width: 100%;
+}
+
+
+.slider li {
+      height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}   
+
+.slider li.active {
+    display: block;
+}
+
+
+.slider h2 {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 90%;
+    width: 100%;
+  position: absolute;
+  right: 0;
+  top: 67%;
+  padding: 0.3em;
+  font-size: 1.8em;
+  font-weight: lighter;
+  }
+
+.slider p {
+    background: black;
+    color: white;
+    width: 100%;
+  position: absolute;
+  right: 0;
+  top: 86%;
+  padding: 0.6em;
+  font-size: 1.2em;
+ 
+}
+
+.below-slider p {
+        display: none;
+    }
+    
+.subscribe {
+     padding: 0.8em;
+     margin-top: 3em;
+    border-top: 0.1em lightgray dashed;
+     border-bottom: 0.1em lightgray dashed;
+     margin: 3em 0;
+     } 
+
+.subscribe input {
+        width:67%;
+}
+
+
+.subscribe lable {    
+     font-style: italic;
+     float: left;
+     width: 90%;
+     vertical-align: 60%;
+     padding-bottom: 1em;
+ }   
+
+ .subscribe img {
+         float: left;
+         padding-right: 0.7em;
+ }   
+
+.subscribe button {
+     margin-left: 1em;
+     width: 25%;
+}
+
+.slider-col {
+   display: none;
+}
+
+.posts {
+    clear: left;
+    width: 100%;
+    margin-top: 3em;   
+}
+
+.posts-col {
+    width: 100%;
+     float: left;
+     padding: 0 1em;
+}
+
+
+ .posts h5 {
+     font-size: 1.7em;
+     margin:0;
+     font-weight: unset;
+ }
+
+  .posts p {
+     font-size: 1.2em;
+      }
+
+.posts img {
+   width:100%;
+   border: 0.1em solid lightgrey;
+   padding: 0.6em; 
+}
+
+
+
+.tweet, .community {
+   display: none;
+}
+
+
+
+footer {
+    clear: both;
+    position: relative;
+    min-height: 10em;
+     margin-top: 4em;
+    padding: 1em;
+    border-top: 0.1em solid lightgray;
+    
+}
+
+footer .copyright {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    line-height: 0.3em;    
+}
+
+.copywrite p a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+footer .social {
+    position: absolute;
+    top: 3em;
+    right: 0;
+    margin-right: 3em;
+}
+
+footer .fa {
+    font-size: 2.5em;
+    color:gray;
+    padding: 0 0.2em;
+}
+}
