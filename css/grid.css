@@ -1048,102 +1048,63 @@ footer .fa {
 
 
 .slider h2 {
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 90%;
+    width: 100%;
   position: absolute;
   right: 0;
-  top: 63%;
-  padding: 0.1em;
-  font-size: 1.8em;
+  top: 72%;
+  padding: 0.3em;
+  font-size: 2em;
   font-weight: lighter;
   }
 
 .slider p {
     background: black;
     color: white;
+    width: 100%;
   position: absolute;
   right: 0;
-  top: 74%;
-  padding: 0.3em;
-  font-size: 1.2em;
+  top: 86%;
+  padding: 0.6em;
+  font-size: 1.4em;
  
 }
 
-.below-slider {
-    margin-top: 0;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
-}
-
-.below-slider h4 {
- font-size: 1.8em;
- line-height: 0;
- text-align: center;
-}
-
-
 .below-slider p {
-    font-size: 1em;
-    line-height: 0.1em;
-    padding-bottom: 1em;
-   
-}
-
+        display: none;
+    }
+    
 .subscribe {
      padding: 0.8em;
      margin-top: 3em;
-     margin-bottom:2em;
-     border-top: 0.1em lightgray dashed;
+    border-top: 0.1em lightgray dashed;
      border-bottom: 0.1em lightgray dashed;
+     margin: 3em 0;
      } 
 
 .subscribe input {
-        width:25%;
-    }
-
-.subscribe lable {
-        width:50%;
-    }
+        
+}
 
 
-.subscribe lable {
-    
+.subscribe lable {    
      font-style: italic;
      float: left;
-     width:50%;
+    padding-left: 3.5em;
+     vertical-align: 60%;
+     padding-bottom: 1em;
  }   
 
  .subscribe img {
          float: left;
+         padding-right: 1.7em;
+         margin-right: 1em;
  }   
 
- .subscribe input,  .subscribe button {
-     float:right;
- }
- 
-.search {
-    border: 0.1rem solid #233; 
-    height: 2.5rem;  
-     
-    }
-
-.search lable {
-    float:left;
-}
-
-.search input {
-    border: none;
-   float: right;
-    padding-right: 4rem;
-   
-    padding-left: 1em;
-} 
-
-.search button {
-   float: right;
-    border:none;
-    width: 3rem;
-  
-    background: none;
+.subscribe button {
+     margin-left: 1em;
+     width: 20%;
 }
 
 .slider-col {
@@ -1176,7 +1137,7 @@ footer .fa {
 .posts img {
    width:100%;
    border: 0.1em solid lightgrey;
-   padding: 0.6em; 
+    padding: 1.6em; 
 }
 
 
@@ -1185,9 +1146,7 @@ footer .fa {
    display: none;
 }
 
-.below-slider p {
-        display: none;
-    }
+
 
 footer {
     clear: both;
@@ -1239,46 +1198,64 @@ footer .fa {
 
 @media only screen and (max-width: 840px) {
 
-     body {
+       body {
     
 }
 
 .wrapper {
-    width: 80%;
+    width: 100%;
     margin:0 auto;
 }
-
-
 
 .content {
     width: 100%;
     float:left;
 }
 
-.side-bar .menu {
-    display: none;
-   
-}
-
-.tweet, .community {
-   display: none;
+.slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .logo img {
-    width: 8em;
+    width: 10em;
     
 }
 
 .logo {
-    float: left;
+    text-align: center;
     width: 100%;
 }
 
-.menu {
-    display: none;
+.side-bar li {
+    display: inline-block;  
 }
 
- .slider:after, .slider img:after,  .subscribe:after, .posts:after, .content:after,  {
+.menu a {
+   display: block;
+     font-size: 1.5em;
+     color: white;
+ }
+
+.menu  {
+    text-align: center;
+}
+
+.menu li:not(:first-child):not(:last-child) {
+    padding: 0.7em; 
+}
+
+.menu li:last-child {
+    padding: 0em 0.7em 0; 
+}
+
+.menu li:first-child {
+    padding: 0em 0 0.7em; 
+}
+
+
+ .slider:after, .slider img:after, .below-slider:after, .subscribe:after, .posts:after, .content:after, .side-bar:after {
     
     content:".";
     clear:both;
@@ -1288,20 +1265,19 @@ footer .fa {
 }
 
 .slider {
-   
+    position: relative;
     width: 100%;
-    
+    margin: 0 auto;       
 }
 
 
 .slider img {
-   width: 80%;
+   width: 100%;
 }
 
 
 .slider li {
-     
-        height: 100%;
+      height: 100%;
     width: 100%;
     left: 0;
     top: 0;
@@ -1314,11 +1290,13 @@ footer .fa {
 
 
 .slider h2 {
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 90%;
+    width: 100%;
   position: absolute;
   right: 0;
-  top: 63%;
-  padding: 0.1em;
+  top: 67%;
+  padding: 0.3em;
   font-size: 1.8em;
   font-weight: lighter;
   }
@@ -1326,97 +1304,66 @@ footer .fa {
 .slider p {
     background: black;
     color: white;
+    width: 100%;
   position: absolute;
   right: 0;
-  top: 74%;
-  padding: 0.3em;
+  top: 86%;
+  padding: 0.6em;
   font-size: 1.2em;
  
 }
 
-.below-slider {
-    display: none;
-}
-
-
-
+.below-slider p {
+        display: none;
+    }
+    
 .subscribe {
      padding: 0.8em;
      margin-top: 3em;
-     margin-bottom:2em;
-     border-top: 0.1em lightgray dashed;
+    border-top: 0.1em lightgray dashed;
      border-bottom: 0.1em lightgray dashed;
+     margin: 3em 0;
      } 
 
 .subscribe input {
-        width:25%;
-    }
-
-.subscribe lable {
-        width:50%;
-    }
+        width:67%;
+}
 
 
-.subscribe lable {
-    
+.subscribe lable {    
      font-style: italic;
      float: left;
-     width:50%;
+     width: 90%;
+     vertical-align: 60%;
+     padding-bottom: 1em;
  }   
 
  .subscribe img {
          float: left;
+         padding-right: 0.7em;
  }   
 
- .subscribe input,  .subscribe button {
-     float:right;
- }
- 
- .search {
-    
-    border: 0.1rem solid #233; 
-    height: 2.5rem;  
-     
-    }
-
-.search lable {
-    float:left;
-}
-
-.search input {
-    border: none;
-   float: right;
-    padding-right: 4rem;
-   
-    padding-left: 1em;
-} 
-
-.search button {
-   float: right;
-    border:none;
-    width: 3rem;
-  
-    background: none;
+.subscribe button {
+     margin-left: 1em;
+     width: 25%;
 }
 
 .slider-col {
-    width: 25%;
-    float: left;
+   display: none;
 }
 
 .posts {
     clear: left;
     width: 100%;
-    margin-top: 2em;
-    float:left;
-    
+    margin-top: 3em;   
 }
 
 .posts-col {
-    width: 50%;
+    width: 100%;
      float: left;
      padding: 0 1em;
 }
+
 
  .posts h5 {
      font-size: 1.7em;
@@ -1431,21 +1378,22 @@ footer .fa {
 .posts img {
    width:100%;
    border: 0.1em solid lightgrey;
-   padding: 0.6em; 
+   padding: 1.4em; 
 }
 
 
 
-.below-slider p {
-        display: none;
-    }
+.tweet, .community {
+   display: none;
+}
 
-    footer {
+
+
+footer {
     clear: both;
     position: relative;
     min-height: 10em;
-   margin-left: 6em;
-    margin-top: 4em;
+     margin-top: 4em;
     padding: 1em;
     border-top: 0.1em solid lightgray;
     
@@ -1476,5 +1424,4 @@ footer .fa {
     color:gray;
     padding: 0 0.2em;
 }
-
 }
