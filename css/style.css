@@ -32,40 +32,13 @@ body {
 
 /* search*/
 
-.search {
-    
-    border: 0.1rem solid #233; 
-    height: 2.5rem;  
-     
-    }
 
-.search lable {
-    float:left;
-}
-
-.search input {
-    border: none;
-   float: right;
-    padding-right: 4rem;
-   
-    padding-left: 1em;
-} 
-
-.search button {
-   float: right;
-    border:none;
-    width: 3rem;
-  
-    background: none;
-}
 
 ::-webkit-input-placeholder {font-style:italic}
 ::-moz-placeholder          {font-style:italic}/* Firefox 19+ */
 :-moz-placeholder           {font-style:italic}/* Firefox 18- */
 :-ms-input-placeholder      {font-style:italic}
 
-
-/*slider*/
 
 
 
@@ -115,75 +88,8 @@ background-color:#d9f2e6;
 
 
 
-.subscribe lable {
-    
-     font-style: italic;
-     float: left;
-     width:50%;
- }   
-
- .subscribe img {
-         float: left;
- }   
-
- .subscribe input,  .subscribe button {
-     float:right;
- }
- 
-
-
- .posts h5 {
-     font-size: 1.7em;
-     margin:0;
-     font-weight: unset;
- }
-
-  .posts p {
-     font-size: 1.2em;
-      }
-
-.posts img {
-   width:100%;
-   border: 0.1em solid lightgrey;
-   padding: 0.6em; 
-}
 
 
 
-footer {
-    clear: both;
-    position: relative;
-    min-height: 10em;
-   margin-left: 6em;
-    margin-top: 4em;
-    padding: 1em;
-    border-top: 0.1em solid lightgray;
-    
-}
 
-footer .copyright {
-    position: absolute;
-    top: 3em;
-    left: 0;
-    margin-left: 3em;
-    line-height: 0.3em;    
-}
 
-.copywrite p a {
-    text-decoration: none;
-    color: cadetblue;
-    font-size: 1.5em;
-}
-
-footer .social {
-    position: absolute;
-    top: 3em;
-    right: 0;
-    margin-right: 3em;
-}
-
-footer .fa {
-    font-size: 2.5em;
-    color:gray;
-    padding: 0 0.2em;
-}
